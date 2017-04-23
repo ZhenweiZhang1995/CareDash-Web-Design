@@ -1,0 +1,2 @@
+# CareDash-Web-Design
+This is a responsive web design for CareDash. The input validation function works when clicking the sign up button on the page. There will be alert window pop up if user’s input is invalid. Please make sure your browser is not blocking pop up window.
