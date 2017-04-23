@@ -1,0 +1,307 @@
+p{
+  font-size: 14px;
+}
+
+h1,h2,h3,h4,h5,p{
+  font-family: 'Open Sans', sans-serif;
+  /*font-family: 'PT Sans', sans-serif;*/
+}
+
+.form-control:focus {
+    outline: none !important;
+    border:1px solid #5cb85c;
+}
+
+.green-border-1{
+  border:1px solid #5cb85c;
+  border-radius: 15px;
+  margin-left: -10%;
+}
+
+.green-border-2{
+  border:1px solid #5cb85c;
+  border-radius: 15px;
+  margin-right: 10%;
+}
+
+.green-border-1:hover,.green-border-1:focus{
+  background-color: #5cb85c;
+  color: white;
+  border:1px solid #5cb85c;
+}
+
+.green-border-2:hover,.green-border-2:focus{
+  background-color: #5cb85c;
+  color: white;
+  border:1px solid #5cb85c;
+}
+
+
+/*navigation bar*/
+.navbar-default .navbar-brand {
+    color: black;
+}
+.navbar-default {
+    background-color: #ffffff;
+}
+.course-text{
+    padding: 84px;
+}
+.navbar-default .navbar-nav > li > a {
+    color: black;
+		/*color of nav bar word*/
+    font-size: 14px;
+    font-weight: 600;
+}
+.navbar-nav > li > a{
+	padding: 0px;
+	margin: 10px 5px;
+	padding: 10px 15px;
+}
+
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover
+{
+	color: black;
+}
+
+.dropdown-menu>li>a:hover{
+  background-color: #5cb85c;
+  color: white;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+  background-color: white;
+  border:1px solid #5cb85c;
+  border-radius: 15px;
+}
+
+.navbar-collapse>ul>li>a.normal:hover{
+  background-color: white;
+  border:1px solid #5cb85c;
+  border-radius: 15px;
+}
+
+
+.logo{
+  height: 40px;
+  margin-top: -3%;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+.padding-zero{
+	padding: 0px;
+}
+.mart20{
+	margin-top: 20px;
+}
+
+.main-image{
+	width: 100%;
+  padding-top: 2%;
+}
+
+.signup{
+	width: 100%;
+}
+
+.main-pic{
+	background-color: #C6C6C6;
+	width:720px;
+	height: 480px;
+}
+
+#main h2{
+	text-align: center;
+}
+
+.submit-btn{
+	display: flex;
+	justify-content:space-around;
+}
+
+.btn-reg{
+	width:120%;
+}
+
+.form-group{
+	padding-top: 2%;
+}
+
+/*reasons*/
+h2{
+	font-size: 22px;
+	padding-bottom: 15px;
+}
+.bottom-line{
+	width: 25px;
+	height: 3px;
+}
+.reason{
+	margin-top: 25px;
+	margin-bottom: 15px;
+}
+.reason-img {
+  width: 20%;
+}
+.heading {
+    width: 80%;
+		margin-left: 10%;
+}
+.reason i {
+    font-size: 39px;
+    color: #5FCF80;
+    margin-top: 7px;
+}
+.heading h4 {
+    font-size: 17px;
+    line-height: 1.25;
+    font-weight: 700;
+    color: #000;
+    margin: 10px 0px;
+    text-align: center;
+}
+.heading p {
+  text-align: left;
+}
+
+.section-padding{
+	padding: 80px 0px;
+}
+
+.smaller-padding{
+	padding: 40px 0px;
+}
+
+.reason-image{
+  width: 150px;
+  height: 150px;
+  background-color: #C6C6C6;
+  display: inline-block;
+}
+
+/*footer*/
+
+.footer {
+    padding: 60px 0 20px;
+}
+
+#myFooter {
+    padding-top: 30px;
+    background-color: #f6f6f6;
+}
+
+#myFooter .row {
+    margin-bottom: 60px;
+}
+
+#myFooter .navbar-brand {
+    margin-top: 45px;
+    height: 65px;
+}
+
+#myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+
+#myFooter h5 {
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#myFooter h2 a{
+    font-size: 50px;
+    text-align: center;
+    color: black;
+}
+
+#myFooter a {
+    color: black;
+    text-decoration: none;
+}
+
+#myFooter a:hover,
+#myFooter a:focus {
+    text-decoration: none;
+    color: #5cb85c;
+    /*need to be change here*/
+}
+
+#myFooter .social-networks a {
+    font-size: 32px;
+    color: black;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+#myFooter .social-networks a:hover {
+    text-decoration: none;
+}
+
+#myFooter .facebook:hover {
+    color: #0077e2;
+}
+
+#myFooter .pinterest:hover {
+    color: #ef1a1a;
+}
+
+#myFooter .twitter:hover {
+    color: #00aced;
+}
+
+#myFooter .instagram:hover {
+    color: orange;
+}
+
+#myFooter .footer-copyright p {
+    margin: 10px;
+    color: black;
+		text-align: center;
+}
+
+#myFooter .btn {
+    border-radius: 15px;
+    border: none;
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+		margin-left: -5px;
+    line-height: 25px;
+}
+
+[class*=" imghvr-"] figcaption, [class^="imghvr-"] figcaption {
+    background-color: #5FCF80;
+}
+[class*=" imghvr-"], [class^="imghvr-"] {
+    background-color: #5FCF80;
+    color: #fff;
+}
+
+@media screen and (max-width: 767px) {
+    #myFooter {
+        text-align: center;
+    }
+    .green-border-1{
+      border:1px solid #5cb85c;
+      border-radius: 15px;
+      margin-left: 2%;
+    }
+
+    .green-border-2{
+      border:1px solid #5cb85c;
+      border-radius: 15px;
+      margin-right: 0;
+      margin-left: 2%;
+    }
+    .logo{
+      height: 40px;
+      margin-top: -5%;
+    }
+}
