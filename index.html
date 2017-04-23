@@ -43,10 +43,8 @@
           </li>
           <li><a href="#" class="normal">Health & Wellness Articles</a></li>
           <li><a href="#" class="normal">Review your doctor</a></li>
-          <!-- <button type="button" class="btn btn-success">Sign In</button> -->
-          <!-- <li><a href="#" data-target="#login" data-toggle="modal">Sign in</a></li> -->
-          <li><p class="navbar-text navbar-right actions"><a class="btn btn-default action-button green-border-1" role="button" href="#">Sign Up</a></p></li>
-          <li><p class="navbar-text navbar-right actions"><a class="btn btn-default action-button green-border-2" role="button" href="#">Login</a></li>
+          <li><p class="navbar-text navbar-right actions"><a class="btn btn-default action-button green-border-1" role="button" href="#" data-toggle="modal" data-target="#myModal1">Sign Up</a></p></li>
+          <li><p class="navbar-text navbar-right actions"><a class="btn btn-default action-button green-border-2" role="button" href="#" data-toggle="modal" data-target="#myModal2">Login</a></li>
 
 
 
@@ -58,6 +56,108 @@
     <!-- Navigation bar -->
 
     <!--Modal box-->
+    <div class="modal fade" id="myModal1" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Registration</h4>
+        </div>
+        <div class="modal-body">
+          <form class="form-horizontal" data-toggle="validator">
+            <div class="form-group">
+                <label for="firstName" class="col-sm-4 control-label">First Name</label>
+                <div class="col-sm-8">
+                    <input type="text" id="username_reg" placeholder="First Name" class="form-control" autofocus>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="firstName" class="col-sm-4 control-label">Last Name</label>
+                <div class="col-sm-8">
+                    <input type="text" id="username_reg" placeholder="Last Name" class="form-control" required="">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="email" class="col-sm-4 control-label">Email</label>
+                <div class="col-sm-8">
+                    <input type="email" id="email_reg" placeholder="name@email.com" class="form-control" data-error="That email address is invalid" >
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="tel" class="col-sm-4 control-label">Telephone</label>
+                <div class="col-sm-8">
+                    <input id="tel" placeholder="Your phone number" class="form-control" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="password" class="col-sm-4 control-label">Password</label>
+                <div class="col-sm-8">
+                    <input type="password" id="password_reg" placeholder="Password" class="form-control">
+
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="password" class="col-sm-4 control-label">Confirm Password</label>
+                <div class="col-sm-8">
+                    <input type="password" id="password2_reg" placeholder="Confirm Password" class="form-control">
+                    <span class="help-block">Password must be identical to the previous password</span>
+                </div>
+            </div>
+
+            <div class="form-group submit-btn">
+                <div>
+                    <button type="submit" id="register" class="btn btn-success btn-block btn-reg">Sign Up</button>
+                </div>
+                <div>
+                    <button type="submit" class="btn btn-success btn-block btn-reg">Log In</button>
+                </div>
+            </div>
+
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="modal fade" id="myModal2" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Log In</h4>
+        </div>
+        <div class="modal-body">
+          <form>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email_reg" placeholder="name@email.com" class="form-control" >
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password_reg" placeholder="Password" class="form-control">
+          </div>
+          <button type="submit" class="btn btn-success">Log In</button>
+
+
+        </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
 
     <!--/ Modal box-->
 
@@ -67,6 +167,8 @@
       <div class="container">
         <div class="row">
           <div class="col-md-8">
+
+
 
             <!-- <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
               <div class="carousel-inner" role="listbox">
@@ -81,6 +183,9 @@
                 </div>
               </div>
             </div> -->
+
+            <!-- The above code is for carousel effect with bootstrap but currently there are no photos so the function is disabled -->
+
             <div class="main-image">
 
               <img src="" alt="" class="img-responsive main-pic"/>
@@ -107,7 +212,7 @@
                 <div class="form-group">
                     <label for="email" class="col-sm-4 control-label">Email</label>
                     <div class="col-sm-8">
-                        <input type="email" id="email_reg" placeholder="name@email.com" class="form-control" data-error="That email address is invalid" >
+                        <input type="email" id="email_reg" placeholder="name@email.com" class="form-control">
                     </div>
                 </div>
                 <div class="form-group">
@@ -268,4 +373,6 @@
     <script type="text/javascript" src="js/register.js"></script>
     <script src="js/bootstrap.min.js"></script>
   </body>
+
+
 </html>
